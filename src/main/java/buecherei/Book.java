@@ -21,7 +21,11 @@ public class Book {
         return isbn;
     }
 
-    public String toString(){
+    public String getTitle() {
+        return title;
+    }
+
+    public String toString() {
         return ("Titel: " + title + ", Autor: " + author + ", Jahr der Veröffentlichung: " + yearPublished + ", ISBN: " + isbn);
     }
 }
